@@ -25,7 +25,7 @@ use JMS\DiExtraBundle\Exception\InvalidTypeException;
  * @Annotation
  * @Target("CLASS")
  */
-final class Tag
+class Tag
 {
     /** @var string @Required */
     public $name;
